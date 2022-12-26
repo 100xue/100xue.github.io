@@ -72,6 +72,7 @@ p{
 }
 
 #col2{
+	scroll-behavior: smooth;
 	background: url('../art/logo_blur.png') no-repeat 50%;
 	background-size: 500px;
 	height: 100vh;
