@@ -1,3 +1,7 @@
+html{
+	scroll-behavior: smooth;
+}
+
 body{
 	margin: 0;
 	font-family: arial;
@@ -41,7 +45,7 @@ p{
 }
 
 #lab{
-	width: 50%;
+	width: 48%;
 }
 
 .grid-container{
@@ -140,7 +144,7 @@ h4{
 
 .description{
 	font-size: 1.2em;
-	margin: 32px;
+	margin: 29px;
 	color: #333;
 }
 
@@ -194,7 +198,15 @@ h4{
 	color: red;
 }
 
+.underline{
+	text-decoration: underline;
+	font-size: 1.2em;
+	margin: 20px;
+	color: #333;
+}
+
 ul{
+	color: #333;
 	list-style: square;
 	list-style-position: outside;
 	width: 35%;
@@ -215,6 +227,10 @@ li{
 
 	#graph{
 		width: 98%;
+	}
+
+	#lab{
+		width: 58%;
 	}
 
 	#col1, #col2, .grid-container, .grid-sub-container{

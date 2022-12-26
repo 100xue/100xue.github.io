@@ -132,7 +132,7 @@
 				<br>Also known as "bapple", our product is popular for their blue color and their high rate of zinc and vitamin E to boost the immune system.<br>
 				<img id='lab' src='art/lab2.gif'>
 
-				<p class='description' style='text-decoration: underline;'>Known side effects :</p>
+				<p class='underline'>Known side effects :</p>
 				<ul>
 					<li>frequent sleep paralysis</li>
 					<li>auditive hallucinations</li>
@@ -202,7 +202,7 @@
 				<h2>Contracts from buyer</h2>
 				<p class='description'>We don't have any regular contracts from a buying companie</p>
 				<!--seller contracts-->
-				<h2>Contracts from buyer</h2>
+				<h2>Contracts from sellers</h2>
 				<div class='contract-container' onclick="openMp()" title='click to send a private message'>
 					<div class='ct-title'>
 						EDF GROUPE FRANCE<hr>
@@ -214,7 +214,7 @@
 					 <br>
 					 Daily needs : 15.6k units
 					</div>
-				</div>
+				</div><br><br>
 
 			</div>
 		</div>
@@ -253,6 +253,8 @@
 			document.getElementById('stats').style.display = 'none';
 			break
 		}
+		window.scrollBy(0, 1000);
+		document.getElementById('col2').scrollBy(0, 1000);
 	}
 
 	function openMp(){
