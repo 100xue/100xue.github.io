@@ -189,7 +189,7 @@
 					<div class='menu-bt' onclick='loadPage("stats")'>Statistics</div>
 				</div>
 				<h2>Statistics</h2>
-				<img draggable='false' id='graph' src='art/graph.png'>
+				<img draggable='false' id='graph' src='art/graph.png'><br><br>
 			</div>
 			<div id='transaction'>
 				<div class='menu'>
@@ -227,6 +227,7 @@
 		switch(page){
 			case'aboutUs':
 			document.getElementById('about_us').style.display = 'block';
+			document.getElementById('col1').style.display = 'none';
 			document.getElementById('contract').style.display = 'none';
 			document.getElementById('stats').style.display = 'none';
 			document.getElementById('transaction').style.display = 'none';
@@ -234,6 +235,7 @@
 
 			case'contract':
 			document.getElementById('contract').style.display = 'block';
+			document.getElementById('col1').style.display = 'none';
 			document.getElementById('about_us').style.display = 'none';
 			document.getElementById('stats').style.display = 'none';
 			document.getElementById('transaction').style.display = 'none';
@@ -241,6 +243,7 @@
 
 			case'stats':
 			document.getElementById('stats').style.display = 'block';
+			document.getElementById('col1').style.display = 'block';
 			document.getElementById('contract').style.display = 'none';
 			document.getElementById('about_us').style.display = 'none';
 			document.getElementById('transaction').style.display = 'none';
@@ -248,16 +251,29 @@
 
 			case'transaction':
 			document.getElementById('transaction').style.display = 'block';
+			document.getElementById('col1').style.display = 'none';
 			document.getElementById('contract').style.display = 'none';
 			document.getElementById('about_us').style.display = 'none';
 			document.getElementById('stats').style.display = 'none';
 			break
 		}
-		window.scrollBy(0, 1000);
 		document.getElementById('col2').scrollBy(0, 1000);
 	}
 
 	function openMp(){
 		window.open('https://www.simcompanies.com/messages/Xuexue laboratories/', '_blank');
 	}
+
+	function resizeEvent() {
+		if(window.innerWidth < 1105){
+			if(document.getElementById('stats').style.display != 'block'){
+				document.getElementById('col1').style.display = 'none';
+			}
+		}else{
+			document.getElementById('col1').style.display = 'block';
+		}
+	}
+
+	window.onresize = resizeEvent;
+
 </script>
