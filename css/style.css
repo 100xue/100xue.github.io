@@ -31,7 +31,7 @@ p{
 	margin-left: 20px;
 	padding: 10px;
 	border: 2px solid #AAA;
-	background: #DDF;
+	background: #FBFBFB;
 	border-radius: 5px;
 }
 
@@ -63,7 +63,7 @@ p{
 }
 
 #col1{
-	background: #EEF;
+	background: #EFE;
 	height: 100vh;
 	overflow: auto;
 }
@@ -86,7 +86,7 @@ h1, h3{
 }
 
 h2{
-	color: #88D;
+	color: #8D8;
 }
 
 p, h4{
@@ -97,7 +97,7 @@ p, h4{
 }
 
 h4{
-	background: #336;
+	background: #363;
 	padding: 10px;
 	color: ghostwhite;
 	margin-left: 20px;
@@ -105,7 +105,7 @@ h4{
 }
 
 .time{
-	background: #DDF;
+	background: #DFD;
 	margin: 0;
 	padding: 2px;
 	margin-left: 20px;
@@ -126,7 +126,7 @@ h4{
 	transition: background 0.2s;
 	cursor: pointer;
 	color: ghostwhite;
-	background: #336;
+	background: #363;
 	padding:10px;
 	font-size: 1.2em;
 	border-right: solid 1px #669;
@@ -134,7 +134,7 @@ h4{
 }
 
 .menu-bt:hover{
-	background: #558;
+	background: #585;
 }
 
 #contract, #stats, #transaction{
@@ -162,18 +162,18 @@ h4{
 	margin: auto;
 	margin-left: 10vw;
 	margin-right: 10vw;
-	background: #669;
+	background: #696;
 	color: ghostwhite;
 	font-weight: bold;
 	cursor: pointer;
 }
 
 .contract-container:hover{
-	background: #AAE;
+	background: #AEA;
 }
 
 .ct-title{
-	background: #336;
+	background: #363;
 	padding: 16px;
 }
 
