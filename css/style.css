@@ -165,11 +165,6 @@ h4{
 	background: #696;
 	color: ghostwhite;
 	font-weight: bold;
-	cursor: pointer;
-}
-
-.contract-container:hover{
-	background: #AEA;
 }
 
 .ct-title{

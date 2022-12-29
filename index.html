@@ -133,10 +133,10 @@
 				</div>
 				<h2>Contracts for buyer</h2>
 
-			<div class='contract-container' onclick="openMp()" title='click to send a private message'>
+			<div class='contract-container'>
 				<div class='ct-title'>
 					Q0 ETHANOL<br><br>
-					<span class='red'>unavailable</span>
+					<span class='orange'>reserved</span>
 				</div>
 				<div class='ct-info'>
 				 price : <span class='green'>$23.25/unit</span><br>
@@ -146,30 +146,7 @@
 			</div>
 
 				<h2>Contracts for seller</h2>
-
-				<div class='contract-container' onclick="openMp()" title='click to send a private message'>
-					<div class='ct-title'>
-						Q0 SEEDS<br><br>
-						<span class='orange'>on hold</span>
-					</div>
-					<div class='ct-info'>
-					 price : <span class='green'>negociate</span><br>
-					 <br>
-					 Daily needs : 77.64k units
-					</div>
-				</div>
-				<br>
-				<div class='contract-container' onclick="openMp()" title='click to send a private message'>
-					<div class='ct-title'>
-						TRANSPORT<br><br>
-						<span class='orange'>on hold</span>
-					</div>
-					<div class='ct-info'>
-					 price : <span class='green'>negociate</span><br>
-					 <br>
-					 Daily needs : 3 235 units
-					</div>
-				</div>
+				<p class='description'>We are currently not seeking for new contracts</p>
 
 			</div>
 
@@ -191,9 +168,9 @@
 					<div class='menu-bt' onclick='loadPage("stats")'>Statistics</div>
 				</div>
 				<!--buyer contracts-->
-				<h2>Ongoing contracts with buyer</h2>
+				<h2>contracts from our buyers</h2>
 
-				<div class='contract-container' onclick="openMp()" title='click to send a private message'>
+				<div class='contract-container'>
 					<div class='ct-title'>
 						FIBRE ENERGIE<hr>
 						Q0 ETHANOL<br>
@@ -206,8 +183,8 @@
 				</div>
 
 				<!--seller contracts-->
-				<h2>Ongoing contracts with seller</h2>
-				<div class='contract-container' onclick="openMp()" title='click to send a private message'>
+				<h2>contracts from our suppliers</h2>
+				<div class='contract-container'>
 					<div class='ct-title'>
 						FIBRE ENERGIE<hr>
 						Q1 POWER<br>
@@ -217,7 +194,33 @@
 					 <br>
 					 Quantity :<br>4x 50.5k units
 					</div>
-				</div><br><br>
+				</div><br>
+
+				<div class='contract-container'>
+					<div class='ct-title'>
+						YOSHINO LOGISTICS<hr>
+						TRANSPORT<br>
+						<span class='green'>each 24h</span>
+					</div>
+					<div class='ct-info'>
+					 <br>
+					 Quantity :<br>5k units
+					</div>
+				</div><br>
+
+				<div class='contract-container'>
+					<div class='ct-title'>
+						AMOUR KOMABIDE<hr>
+						Q0 SEEDS<br>
+						<span class='green'>each 24h</span>
+					</div>
+					<div class='ct-info'>
+					 <br>
+					 Quantity :<br>19.4k units
+					</div>
+				</div>
+
+				<br><br>
 
 			</div>
 		</div>
@@ -269,10 +272,6 @@
 			break
 		}
 		document.getElementById('col2').scrollBy(0, 1000);
-	}
-
-	function openMp(){
-		window.open('https://www.simcompanies.com/messages/Xuexue laboratories/', '_blank');
 	}
 
 	function resizeEvent() {
