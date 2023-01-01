@@ -115,16 +115,15 @@
 					<div class='menu-bt' id='statis'onclick='loadPage("stats")'>Statistics</div>
 				</div>
 				<h2>About us</h2>
-				<p class='description'>Baixue Solutions is a new company specialized in bio-ethanol production.<br> Our priority is to offer a quality product for an affordable price.<br>In order to assure the "Baixue quality", our sugarcanes<br>undergo a secret process in our labs before being processed in ethanol.
-				<br>
-				<img id='lab' src='art/lab2.gif'>
+				<p class='description'>Under construction due to our business conversion...
+				<!-- <img id='lab' src='art/lab2.gif'> -->
 
-				<p class='underline'>Precautionary measure :</p>
+				<!-- <p class='underline'>Precautionary measure :</p>
 				<p class='description'>We have received multiple reports concerning<br>ethanol barrels showing signs of self-awareness.<br><br>If you think one of our barrel is sentient,<br>please report it to our customer service.<br>A member of our staff will recover the<br>barrel and replace it with a new one.</p>
 				<ul>
 					<li>Don't interact with the ethanol</li>
 					<li>Don't listen to what it says</li>
-				</ul>
+				</ul> -->
 			</div>
 			<div id='contract'>
 				<div class='menu'>
@@ -135,7 +134,9 @@
 				</div>
 				<h2>Contracts for buyer</h2>
 
-			<div class='contract-container'>
+				<p class='description'>Coming soon...</p>
+
+			<!-- <div class='contract-container'>
 				<div class='ct-title'>
 					Q0 ETHANOL<br><br>
 					<span class='orange'>reserved</span>
@@ -145,7 +146,7 @@
 				 <br>
 				 Daily avaible : n/a
 				</div>
-			</div>
+			</div> -->
 
 				<h2>Contracts for seller</h2>
 				<p class='description'>We are currently not seeking for new contracts</p>
@@ -169,8 +170,8 @@
 				</div>
 				<!--buyer contracts-->
 				<h2>contracts from our buyers</h2>
-
-				<div class='contract-container'>
+				<p class="description">We currently don't have any contract from buyers</p>
+				<!-- <div class='contract-container'>
 					<div class='ct-title'>
 						FIBRE ENERGIE<hr>
 						Q0 ETHANOL<br>
@@ -180,45 +181,9 @@
 					 <br>
 					 Quantity :<br>2k units
 					</div>
-				</div>
-
-				<!--seller contracts-->
+				</div> -->
 				<h2>contracts from our suppliers</h2>
-				<div class='contract-container'>
-					<div class='ct-title'>
-						FIBRE ENERGIE<hr>
-						Q1 POWER<br>
-						<span class='green'>each 24h</span>
-					</div>
-					<div class='ct-info'>
-					 <br>
-					 Quantity :<br>4x 53k units
-					</div>
-				</div><br>
-
-				<div class='contract-container'>
-					<div class='ct-title'>
-						YOSHINO LOGISTICS<hr>
-						TRANSPORT<br>
-						<span class='green'>each 48h</span>
-					</div>
-					<div class='ct-info'>
-					 <br>
-					 Quantity :<br>10k units
-					</div>
-				</div><br>
-
-				<div class='contract-container'>
-					<div class='ct-title'>
-						AMOUR KOMABIDE<hr>
-						Q0 SEEDS<br>
-						<span class='green'>each 24h</span>
-					</div>
-					<div class='ct-info'>
-					 <br>
-					 Quantity :<br>4x 19.4k units
-					</div>
-				</div>
+				<p class="description">We currently don't have any contract from suppliers</p>
 
 				<br><br>
 
@@ -233,6 +198,7 @@
 		switch(page){
 			case'aboutUs':
 			document.getElementById('about_us').style.display = 'block';
+			document.getElementById('col2').style.minHeight = '100vh';
 			if(window.innerWidth < 1105){
 				document.getElementById('col1').style.display = 'none';
 			}
@@ -243,6 +209,7 @@
 
 			case'contract':
 			document.getElementById('contract').style.display = 'block';
+			document.getElementById('col2').style.minHeight = '100vh';
 			if(window.innerWidth < 1105){
 				document.getElementById('col1').style.display = 'none';
 			}
@@ -255,6 +222,7 @@
 			document.getElementById('stats').style.display = 'block';
 			if(window.innerWidth < 1105){
 				document.getElementById('col1').style.display = 'block';
+				document.getElementById('col2').style.minHeight = '0vh';
 			}
 			document.getElementById('contract').style.display = 'none';
 			document.getElementById('about_us').style.display = 'none';
@@ -263,6 +231,7 @@
 
 			case'transaction':
 			document.getElementById('transaction').style.display = 'block';
+			document.getElementById('col2').style.minHeight = '100vh';
 			if(window.innerWidth < 1105){
 				document.getElementById('col1').style.display = 'none';
 			}

@@ -67,7 +67,7 @@ p{
 }
 
 #col1{
-	background: #EFE;
+	background: #C2AD91;
 	height: 100vh;
 	overflow: auto;
 }
@@ -76,7 +76,7 @@ p{
 	min-height: 75vh;
 	scroll-behavior: smooth;
 	background: url('../art/logo_blur.png') no-repeat 50%;
-	background-size: 500px;
+	background-size: 250px;
 	height: 100vh;
 	overflow: auto;
 }
@@ -90,7 +90,7 @@ h1, h3{
 }
 
 h2{
-	color: #8D8;
+	color: saddlebrown;
 }
 
 p, h4{
@@ -130,15 +130,15 @@ h4{
 	transition: background 0.2s;
 	cursor: pointer;
 	color: ghostwhite;
-	background: #363;
+	background: #644f2d;
 	padding:10px;
 	font-size: 1.2em;
-	border-right: solid 1px #669;
-	border-bottom: solid 2px #669;
+	border-right: solid 1px #431;
+	border-bottom: solid 2px #431;
 }
 
 .menu-bt:hover{
-	background: #585;
+	background: #431;
 }
 
 #contract, #stats, #transaction{
@@ -245,7 +245,7 @@ li{
 
 	#col2{
 	  	grid-row: 1;
-	  	min-height: 0;
+	  	min-height: 100vh;
 	}
 
 	#statis{
