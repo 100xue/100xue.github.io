@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -11,17 +11,19 @@
 		<div id='col1'>
 			<img draggable='false' id='logo' src='art/logo.png'>
 			<h1>Baixue Solutions</h1>
-			<h2>Sole trader</h2>
-			<br><h3>estimations for normal phase</h3>
+			<h2>Limited company</h2>
+			<br><br>
+			<img draggable='false' id='graph' src='art/graph.png'>
+			<!--<br><h3>status</h3>
 			<h4>NEEDS IN POWER</h4>
 			<div class='grid-sub-container'>
 				<div>
 					<p class='time'>12h</p>
-					<p>±106k💡</p><!--7 806-->
+					<p>±106k💡</p>
 				</div>
 				<div>
 					<p class='time'>24h</p>
-					<p>±212k💡</p><!--7 612-->
+					<p>±212k💡</p>
 				</div>
 			</div>
 			<p>Our power is provided by FIBRE ENERGIE</p>
@@ -38,10 +40,10 @@
 			</div>
 			<p>We are self-sufficient in water</p>
 			<h4>ETHANOL PROD.</h4>
-			<p>💸sugar cane cost : <span class='red'>$11.92</span><br>
-			💸power cost : <span class='red'>$3.90</span><br>
-			💸wages cost : <span class='red'>$3.955</span><br>
-			💸admin cost : <span class='red'>$0.302</span><br>
+			<p>💸sugar cane cost : <span class='red'>$12.66</span><br>
+			💸power cost : <span class='red'>$4</span><br>
+			💸wages cost : <span class='red'>$0.502</span><br>
+			💸admin cost : <span class='red'>$0.05</span><br>
 			💸total/unit : <span class='red'>$20.077</span></p>
 			<div class='grid-sub-container'>
 				<div>
@@ -72,7 +74,7 @@
 					<p class='time'>24h</p>
 					<p>🏭prod : <span class='purple'>77 640</span><br>
 					💸cost : <span class='red'>$92 546</span><br>
-					📈surplus : <span class='purple'>4 512</span></p><!--surplus envoyé dans fabrique n°3-->
+					📈surplus : <span class='purple'>4 512</span></p>
 				</div>
 			</div>
 			<p class='description'>surplus is sent to beverage fabric n°3 once a day</p>
@@ -103,14 +105,14 @@
 				 <p class='total'>24h contract<br>net benefits :</p>
 				 <p class='total'><span class='blue'>+$17 855<br>@23.25</span></p>
 			</div>
-		<br></div>
+		<br>--></div>
 		<div id='col2'>
 			<div id='about_us'>
 				<div class='menu'>
 					<div class='menu-bt' onclick='loadPage("aboutUs")'>About us</div>
 					<div class='menu-bt' onclick='loadPage("contract")'>Contracts</div>
 					<div class='menu-bt' onclick='loadPage("transaction")'>Ongoing</div>
-					<div class='menu-bt' onclick='loadPage("stats")'>Statistics</div>
+					<div class='menu-bt' id='statis'onclick='loadPage("stats")'>Statistics</div>
 				</div>
 				<h2>About us</h2>
 				<p class='description'>Baixue Solutions is a new company specialized in bio-ethanol production.<br> Our priority is to offer a quality product for an affordable price.<br>In order to assure the "Baixue quality", our sugarcanes<br>undergo a secret process in our labs before being processed in ethanol.
@@ -129,7 +131,7 @@
 					<div class='menu-bt' onclick='loadPage("aboutUs")'>About us</div>
 					<div class='menu-bt' onclick='loadPage("contract")'>Contracts</div>
 					<div class='menu-bt' onclick='loadPage("transaction")'>Ongoing</div>
-					<div class='menu-bt' onclick='loadPage("stats")'>Statistics</div>
+					<div class='menu-bt' id='statis'onclick='loadPage("stats")'>Statistics</div>
 				</div>
 				<h2>Contracts for buyer</h2>
 
@@ -147,7 +149,7 @@
 
 				<h2>Contracts for seller</h2>
 				<p class='description'>We are currently not seeking for new contracts</p>
-
+				<br><br><br><br><br><br><br><br><br><br><br><br><br>
 			</div>
 
 			<div id='stats'>
@@ -155,17 +157,15 @@
 					<div class='menu-bt' onclick='loadPage("aboutUs")'>About us</div>
 					<div class='menu-bt' onclick='loadPage("contract")'>Contracts</div>
 					<div class='menu-bt' onclick='loadPage("transaction")'>Ongoing</div>
-					<div class='menu-bt' onclick='loadPage("stats")'>Statistics</div>
+					<div class='menu-bt' id='statis'onclick='loadPage("stats")'>Statistics</div>
 				</div>
-				<h2>Statistics</h2>
-				<img draggable='false' id='graph' src='art/graph.png'><br><br>
 			</div>
 			<div id='transaction'>
 				<div class='menu'>
 					<div class='menu-bt' onclick='loadPage("aboutUs")'>About us</div>
 					<div class='menu-bt' onclick='loadPage("contract")'>Contracts</div>
 					<div class='menu-bt' onclick='loadPage("transaction")'>Ongoing</div>
-					<div class='menu-bt' onclick='loadPage("stats")'>Statistics</div>
+					<div class='menu-bt' id='statis'onclick='loadPage("stats")'>Statistics</div>
 				</div>
 				<!--buyer contracts-->
 				<h2>contracts from our buyers</h2>
@@ -192,7 +192,7 @@
 					</div>
 					<div class='ct-info'>
 					 <br>
-					 Quantity :<br>4x 50.5k units
+					 Quantity :<br>4x 53k units
 					</div>
 				</div><br>
 
@@ -200,11 +200,11 @@
 					<div class='ct-title'>
 						YOSHINO LOGISTICS<hr>
 						TRANSPORT<br>
-						<span class='green'>each 24h</span>
+						<span class='green'>each 48h</span>
 					</div>
 					<div class='ct-info'>
 					 <br>
-					 Quantity :<br>5k units
+					 Quantity :<br>10k units
 					</div>
 				</div><br>
 
@@ -216,7 +216,7 @@
 					</div>
 					<div class='ct-info'>
 					 <br>
-					 Quantity :<br>19.4k units
+					 Quantity :<br>4x 19.4k units
 					</div>
 				</div>
 
@@ -281,6 +281,10 @@
 			}
 		}else{
 			document.getElementById('col1').style.display = 'block';
+			document.getElementById('about_us').style.display = 'block';
+			document.getElementById('contract').style.display = 'none';
+			document.getElementById('stats').style.display = 'none';
+			document.getElementById('transaction').style.display = 'none';
 		}
 	}
 
