@@ -67,7 +67,7 @@ p{
 }
 
 #col1{
-	background: #C2AD91;
+	background: #EFEFEF;
 	height: 100vh;
 	overflow: auto;
 }
@@ -90,7 +90,7 @@ h1, h3{
 }
 
 h2{
-	color: saddlebrown;
+	color: olivedrab;
 }
 
 p, h4{
@@ -130,15 +130,15 @@ h4{
 	transition: background 0.2s;
 	cursor: pointer;
 	color: ghostwhite;
-	background: #644f2d;
+	background: #AAA;
 	padding:10px;
 	font-size: 1.2em;
-	border-right: solid 1px #431;
-	border-bottom: solid 2px #431;
+	border-right: solid 1px #888;
+	border-bottom: solid 2px #888;
 }
 
 .menu-bt:hover{
-	background: #431;
+	background: #777;
 }
 
 #contract, #stats, #transaction{
