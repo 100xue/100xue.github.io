@@ -46,7 +46,7 @@ p{
 }
 
 #lab{
-	width: 48%;
+	width: 25%;
 }
 
 .grid-container{
@@ -236,7 +236,7 @@ li{
 	}
 
 	#lab{
-		width: 58%;
+		width: 25%;
 	}
 
 	#col1, #col2, .grid-container, .grid-sub-container{
