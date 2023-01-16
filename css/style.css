@@ -11,6 +11,10 @@ p{
 	margin:auto;
 }
 
+.imgcont{
+	width: 20%;
+}
+
 #statis{
 	display: none;
 }
